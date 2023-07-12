@@ -1,0 +1,26 @@
+.MuiCard-root {
+  box-shadow: #3a87f626 0 5px 15px !important;
+}
+
+.MuiButton-root {
+  background-color: rgb(66, 62, 62) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.MuiChip-root {
+  background-color: rgb(98, 94, 94) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.fullscreen.fullscreen-enabled {
+  background: whitesmoke !important;
+}
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .printableArea,
+  .printableArea * {
+    visibility: visible;
+  }
+}
